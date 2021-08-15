@@ -1,5 +1,5 @@
 from pandas_datareader import wb
-data = wb.download(indicator='FP.CPI.TOTL.ZG', country='IN', start=1960, end=2020)
+data = wb.download(indicator='FP.CPI.TOTL.ZG', country='IN', start=1960, end=2020) #SP.POP.TOTL for population
 data = data.reset_index()
 del data['country']
 data.columns = ['year','inflation']
