@@ -1,13 +1,18 @@
-<div align="center">
-  <p align="right"><a href="https://github.com/yesdeepakmittal/">About Author</a></p>
-  <h1>Supply Chain Maturity Model using Machine Learning</h1>
-</div>
+# Supply Chain Maturity Model using Machine Learning
+Supply Chain Maturity model is the implementation of machine learning and data science to analyze the business data. In this project, we incorporated the unstructured data and transformed it into facts and figures.
 
-<div>
-  <h2>1. About the project</h2>
-  <p>Supply Chain Maturity model is the implementation of machine learning and data science to analyze the business data. In this project, we incorporated the unstructured data      and transformed it into facts and figures. </p>
-  <p>A dashboard is made using Python and deployed it onto Heroku. This dashboard can be accessed from anywhere and will be updated in real-time.</p><br>
-  <div align="center">
+## How to get started?
+- Make a [virtual Environment](https://gist.github.com/yesdeepakmittal/61494217c8be4a7e61524e27824943bd) and activate it
+- `git clone https://github.com/yesdeepakmittal/SupplyChainModel`
+- `cd SupplyChainModel`
+- `pip install -r requirements.txt`
+- `python index.py`
+- run your application in browser `http://127.0.0.1:8050/`
+
+
+## Overview
+
+<div align="center">
   <img src="https://github.com/yesdeepakmittal/SupplyChainModel/blob/main/assets/home.png" width="800" title="feedback page" alt="feedback page"><br>
   <img src="https://github.com/yesdeepakmittal/SupplyChainModel/blob/main/assets/location.png" width="600" title="location" alt="location"><br>
   <img src="https://github.com/yesdeepakmittal/SupplyChainModel/blob/main/assets/social%20media.png" width="600" title="social media" alt="social media"><br>
@@ -17,34 +22,15 @@
   </div>
 </div>
 
-<div>
-  <h2>2. How to get started?</h2>
-  <ul>
-    <li> Make a virtual environment and activate it| <a href="https://gist.github.com/yesdeepakmittal/61494217c8be4a7e61524e27824943bd" target="_blank">Code for Virtualenv</a></li>
-    <li> Clone the repository using `git clone https://github.com/yesdeepakmittal/SupplyChainModel` and change the directory.</li>
-    <li> Install all packages using `pip install -r requirements.txt` using shell.</li>
-    <li> Follow step 2 of data source to update data as described below</li>
-    <li> Start your program using `python index.py`</li>
-  </ul>
-</div>
 
-<div>
-  <h2>3. Data Source</h2>
-  <ul>
-  <li>The data is prepared only for building this dashboard and stored it into the remote database. After that data is queried using Python and updated into the dashboard.</li>
-  <li>Run data.py, db.py, macroeconomic_indicator.py,sentiment.py,twitter.py stored in data folder. You can write another script to run all these function simultaneously and add a button on the dashboard.</li>
-  <li>Make sure to add your database crediential in the db.py file if you are using remote database and twitter secrets in twitter.py</li>
-    </ul>
-</div>
+##  Data Source
+- Data need to fetch from DB as well as from other sources by running below mentioned Python scripts. 
+- Run `data.py`, `db.py`, `macroeconomic_indicator.py`,`sentiment.py`,`twitter.py` stored in data folder. 
+- You can write another script to run all these function simultaneously and add a button on the dashboard.
+- Make sure to add your DB crediential in the `db.py` file if you are using remote database and twitter secrets in twitter.py
 
-<div>
-  <h2>4. References</h2>
-  <ul>
-  <li>https://pythonprogramming.net/</li>
-  <li>https://www.youtube.com/user/sentdex</li>
-  <li>https://www.coursera.org/learn/social-media-data-analytics</li>
-  </ul>
-</div>
 
-  <p align="right"><b>Happy Coding :)🖤🖤🖤</b></p>
-
+## References
+- https://pythonprogramming.net/
+- https://www.youtube.com/user/sentdex
+- https://www.coursera.org/learn/social-media-data-analytics
